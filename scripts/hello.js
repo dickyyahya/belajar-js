@@ -143,3 +143,28 @@ console.info("Hello World!");
 console.warn("Ini Bahaya");
 
 console.error("Kode Error");
+
+//string template
+const awalName = "yahya";
+const tengahName = "Budi";
+const akhirName = "sentosa";
+const gabungNamaBiasa = "Nama" + " " + awalName + " " + tengahName + " " + akhirName;
+
+const template = `Name : ${awalName} ${tengahName} ${akhirName} `;
+console.info(gabungNamaBiasa);
+
+//exspression di string template
+const nama = "Yahya";
+const poin = 90;
+
+const hasil = `Nama : ${nama}, Lulus : ${poin > 75}`;
+console.info(hasil);
+
+//Multiline String
+let multiLineString = `Nama saya Yahya
+seorang pengangguran
+yang selalu gagal di setiap sektor
+hidup memamg ampas
+dan penuh plottwist`;
+
+console.info(multiLineString);
