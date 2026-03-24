@@ -88,3 +88,29 @@ document.writeln("<p>" + angkaPertama + "</p>");
 
 angkaPertama = -angkaPertama; //-1
 document.writeln("<p>" + angkaPertama + "</p>");
+
+//operator perbandingan
+
+let angkaBanding = 5 == "5"; // sama dengan
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 === "5"; //sama dengan dan sama tipe
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 > 10; //lebih dari
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 < 10; //kurang dari
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 <= 10; //kurang dari sama dengan
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 >= 10; //lebih dari sama dengan
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 != 10; //tidak sama dengan
+document.writeln("<p>" + angkaBanding + "</p>");
+
+angkaBanding = 5 !== 10; //tidak sama dengna atau tidak sama tipe
+document.writeln("<p>" + angkaBanding + "</p>");
