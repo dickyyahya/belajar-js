@@ -168,3 +168,48 @@ hidup memamg ampas
 dan penuh plottwist`;
 
 console.info(multiLineString);
+
+//konversi string to number
+//parseint("string") konversi dari string ke number bil bulat
+//parseFloat("string") konversi dari string ke number bil pecahan
+//number("string") //konversi dari string ke number bil bulat/pecahan
+//number.toString()//konversi dari number ke string
+const value1 = parseInt("2");
+const value2 = 2;
+const tambah = value1 + value2;
+
+document.writeln(`<p> konversi ${tambah}</p>`);
+
+document.writeln(`<p> ${parseInt("1.9")}</p>`);
+document.writeln(`<p> ${parseFloat("1.1")}</p>`);
+document.writeln(`<p> ${Number("1.1")}</p>`);
+
+//ubah number ke string
+const a = 1;
+const b = 3;
+const total = a.toString() + b.toString();
+document.writeln(`<p>${total}</p>`);
+
+//NAN
+document.writeln(`<p>${parseInt("2salah")}</p>`); //NaN
+document.writeln(`<p>${parseFloat("1.1salah")}</p>`); //1.1
+
+//Number() tidak akan menolerir kesalahan pada data
+document.writeln(`<p>${Number("1.1ops")}</p>`); //NaN
+document.writeln(`<p>${Number("1x")}</p>`); //NaN
+document.writeln(`<p>${Number("Durjana")}</p>`); //NaN
+
+//operasi pada Nan
+
+const value3 = Number("Dongo"); //NaN
+const value4 = 12;
+const jumlah = value3 + value4; //nan
+
+document.writeln(`<p>${jumlah}</p>`);
+
+//isNaN()Function
+//isNaN mengecek apakah sebuah number itu NaN atau bukan
+document.writeln("sialan");
+document.writeln(`<p>${isNaN(value4)}</p>`);
+document.writeln(`<p>${isNaN(100)}</p>`);
+document.writeln(`<p>${isNaN(NaN)}</p>`);
