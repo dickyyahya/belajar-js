@@ -59,3 +59,32 @@ document.writeln(firstFinger);
 const anggotaTubuh = "tangan";
 // anggotaTubuh = "kaki";
 document.writeln(anggotaTubuh);
+
+//operator aritmatika
+let result = 2 + 3;
+document.writeln("<p> 2+3 = " + result + "</p>");
+let originalResult = result;
+
+result = result - 1;
+document.writeln("<p>" + originalResult + "-1 =" + result + "</p>");
+originalResult = result;
+
+result = result * 2;
+document.writeln("<p>" + originalResult + "*2=" + result + "</p>");
+originalResult;
+//lebih ringkas
+result += 10;
+document.writeln(result);
+
+//operator unary
+let angkaPertama = +1;
+document.writeln("<p>" + angkaPertama + "</p>");
+
+angkaPertama--; //angkaPertama = angkaPertama - 1; angkaPertama -=1; 0
+document.writeln("<p>" + angkaPertama + "</p>");
+
+angkaPertama++; //angkaPertama = angkaPertama +1; angkaPertma+=1; 1
+document.writeln("<p>" + angkaPertama + "</p>");
+
+angkaPertama = -angkaPertama; //-1
+document.writeln("<p>" + angkaPertama + "</p>");
