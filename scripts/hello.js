@@ -129,3 +129,17 @@ const lulusAbsen = nilaiAbsen > 75;
 const lulus = lulusUjian && lulusAbsen;
 
 document.writeln("<p> hasil ujian " + lulus + "</p>");
+
+//console method
+//console.info() or console.log() == memberitahu informasi
+//console.warn()= memberitahu informasi peringatan
+//console.error() = memberitahu informarsi error
+//console table()memberi tahu informasi dalam bentuk table
+
+console.debug("ini Debug");
+
+console.info("Hello World!");
+
+console.warn("Ini Bahaya");
+
+console.error("Kode Error");
