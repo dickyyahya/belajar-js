@@ -114,3 +114,18 @@ document.writeln("<p>" + angkaBanding + "</p>");
 
 angkaBanding = 5 !== 10; //tidak sama dengna atau tidak sama tipe
 document.writeln("<p>" + angkaBanding + "</p>");
+
+//operator logika
+//operator and && kedua nilai true maka hasil truw jika salah satu false atau keduanya false maka nilainya false
+//operator or || jika kedua nilai true maka hasilnya true dan jika salah satunya saja true satunya false maka true dan jika semua nilai false maka hasilnya false
+//operator unary ! cuma menggunakan satu nilai jika nilai true maka hasilnya false jika nilai false maka nilainya true
+
+const nilaiUjian = 70;
+const nilaiAbsen = 70;
+
+const lulusUjian = nilaiUjian > 75;
+const lulusAbsen = nilaiAbsen > 75;
+
+const lulus = lulusUjian && lulusAbsen;
+
+document.writeln("<p> hasil ujian " + lulus + "</p>");
