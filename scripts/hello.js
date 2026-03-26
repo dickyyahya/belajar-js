@@ -241,3 +241,28 @@ namaHewan[1] = "bebek manjing maning";
 namaHewan.push(1, 2, 3, 4, 5);
 namaHewan.push([6, 7, 8, 9, 10]);
 console.table(namaHewan);
+
+//tipe data objek
+const person = {};
+
+//ubah property/attribute
+person["nama"] = "yahya";
+person["alamat"] = "brebes";
+person["umur"] = 24;
+
+delete person["umur"];
+console.table(person);
+
+//membuat object dengan properties
+
+const namaSerangga = {
+  "nama Lengkap": "walang",
+  habitat: "rumput",
+  makanan: "suket",
+  umur: 2,
+};
+
+console.table(namaSerangga);
+
+console.info(`Nama : ${namaSerangga["nama Lengkap"]}`);
+console.info(`umur : ${namaSerangga.umur}`);
