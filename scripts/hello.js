@@ -213,3 +213,31 @@ document.writeln("sialan");
 document.writeln(`<p>${isNaN(value4)}</p>`);
 document.writeln(`<p>${isNaN(100)}</p>`);
 document.writeln(`<p>${isNaN(NaN)}</p>`);
+
+//tipe data array
+//array berisi kumpulan data
+
+let arrayKosong = [];
+let jenisBuah = ["gedang", "kates", "nangka"];
+
+const namaHewan = [];
+namaHewan.push("curut");
+namaHewan.push("babi", "gajah", "ayam");
+//lihat isi index
+console.table(namaHewan);
+console.info(namaHewan[0]);
+console.info(namaHewan[1]);
+//ubah isi index
+namaHewan[1] = "Gajah";
+console.table(namaHewan);
+//hapus index
+delete namaHewan[1];
+console.table(namaHewan);
+namaHewan.push("pitik");
+console.table(namaHewan);
+//tambah maning setalah hapus
+
+namaHewan[1] = "bebek manjing maning";
+namaHewan.push(1, 2, 3, 4, 5);
+namaHewan.push([6, 7, 8, 9, 10]);
+console.table(namaHewan);
