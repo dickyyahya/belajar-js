@@ -266,3 +266,17 @@ console.table(namaSerangga);
 
 console.info(`Nama : ${namaSerangga["nama Lengkap"]}`);
 console.info(`umur : ${namaSerangga.umur}`);
+
+//if exspresion atau percabangan
+
+const hasilUjian = 50;
+
+if (hasilUjian > 90) {
+  document.writeln("<p>gacor kang</p>");
+  //else if expresion
+} else if (hasilUjian > 50) {
+  document.writeln("<p>goodlah</p>");
+  //else expresion
+} else {
+  document.writeln("<p>Dongo</p>");
+}
