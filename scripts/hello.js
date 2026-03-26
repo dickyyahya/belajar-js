@@ -280,3 +280,24 @@ if (hasilUjian > 90) {
 } else {
   document.writeln("<p>Dongo</p>");
 }
+
+//Popup
+//alert = memberi peringatan berupa popup text di browser
+//prompt = untuk meminta input string dari pengguna browser dalam bentuk popup input text
+//confirm = untuk meminta input boolean dari pengguna browser dalam popup input pilihan
+//alert kode
+alert("Hello World");
+
+//prompt kode
+const beras = prompt("Harga beras berapa");
+alert(`halli ${beras}`);
+
+// confirm kode
+const masuk = confirm("anda yakin mau masuk?");
+
+if (masuk) {
+  const aran = prompt("siapa nama anda");
+  alert(`hello ${aran}`);
+} else {
+  alert("dadah");
+}
