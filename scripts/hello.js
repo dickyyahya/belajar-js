@@ -329,3 +329,16 @@ if (makanan.nama === undefined) {
 } else {
   console.info(`hello ${makanan.nama}`);
 }
+
+//null
+// null merupakan representasi data kosong
+let minuman = 12;
+// let minuman = esteh;
+
+if (minuman === undefined) {
+  console.info("hello undifined");
+} else if (minuman === null) {
+  console.info("hello null");
+} else {
+  console.info(`hello ${minuman}`);
+}
