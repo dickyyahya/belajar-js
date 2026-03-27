@@ -301,3 +301,31 @@ if (masuk) {
 } else {
   alert("dadah");
 }
+
+//undefined
+//sebuah tipe data yang undifined dan belum didefinisikan
+
+let sembako = "beras";
+if (sembako === undefined) {
+  alert("UNDEFINED");
+} else {
+  alert("DEFINIED");
+}
+
+//undefined array value
+const cabai = ["rawit", "setan"];
+
+if (cabai[1] === undefined) {
+  console.info("woii");
+} else {
+  console.info("cihuy");
+}
+
+//undefined object property
+let makanan = { nama: "rujak" };
+
+if (makanan.nama === undefined) {
+  console.info("prikitiw");
+} else {
+  console.info(`hello ${makanan.nama}`);
+}
