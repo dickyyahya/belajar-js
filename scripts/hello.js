@@ -360,3 +360,10 @@ switch (gorengan) {
   default:
     document.writeln("<p>cimol</p>");
 }
+
+//operator typeof
+// untuk melihat dan tau isi data dari sebuah variabel
+let data = true;
+
+const typeData = typeof data;
+document.writeln(`<p>${data}</p>`);
