@@ -342,3 +342,21 @@ if (minuman === undefined) {
 } else {
   console.info(`hello ${minuman}`);
 }
+
+//switch exspresion
+//lebih simpel dari if tapi hanya perbandingan sama dengan
+const gorengan = "d";
+switch (gorengan) {
+  case "a":
+    document.writeln("<p>tahu</p>");
+    break;
+  case "b":
+  case "c":
+    document.writeln("<p>tempe</p>");
+    break;
+  case "d":
+    document.writeln("<p>bakwan</p>");
+    break;
+  default:
+    document.writeln("<p>cimol</p>");
+}
